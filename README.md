@@ -17,13 +17,21 @@ New idea repos carry the GitHub topic `idea-documentation` and a description sta
 - [Civic and Public Data](#civic-and-public-data)
 - [Hardware](#hardware)
 - [Idea Collections](#idea-collections)
+- [Jobs and Careers](#jobs-and-careers)
 - [Media and Video](#media-and-video)
+- [Specs and Patterns](#specs-and-patterns)
 - [Voice and ASR](#voice-and-asr)
 - [Related Indices](#related-indices)
 
 ---
 
 ## AI Agents and Claude Code
+
+### Agent Briefing Gateway
+
+An orchestrator that buffers a human from working sub-agents: one consolidated brief per cycle, a budgeted override channel, resumable approval gates.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Agent-Briefing-Gateway)
 
 ### Agent IVR
 
@@ -67,6 +75,12 @@ Placeholder planning repo for a Claude Code background-hook planner.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Background-Hook-Planner)
 
+### Claude Fleet Traffic Shaper
+
+Priority-aware traffic shaping across a fleet of concurrent Claude Code sessions, with prior-art research.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Fleet-Traffic-Shaper)
+
 ### Claude Rescue
 
 A rescue utility that seeds a Claude Code install on a broken system for AI-assisted repair.
@@ -85,6 +99,18 @@ An agentic pipeline that drafts and sends client update emails.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Client-Update-Pipeline-Notes)
 
+### Code Tutor Agent Model
+
+An AI agent that guides the user through code instead of writing it.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Code-Tutor-Agent-Model)
+
+### Context Waterfall Architecture Notes
+
+A model for routing contextual data into vector storage for use with LLMs.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Context-Waterfall-Architecture-Notes)
+
 ### Llama OS Doctor Idea
 
 An LLM agent that diagnoses and repairs an operating system.
@@ -97,17 +123,35 @@ A local MCP handler that keeps secrets on the machine and pairs with a cloud API
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Local-Secrets-MCP)
 
+### MCP Aggregation Notes
+
+Frustrations with MCP aggregation and a plan for an easier approach.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/MCP-Aggregation-Notes)
+
 ### Meet Me
 
 Agent-to-agent calendar booking with agent skills in a sandboxed A2A environment (part 1 of 2; see The Lobby).
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Meet-Me)
 
+### My LLM KM Idea
+
+A graph-backed knowledge base for storing LLM-derived information (archived).
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/My-LLM-KM-Idea)
+
 ### New Turn Claude Hook
 
 A hook that fires when a new turn starts in Claude Code or another agent CLI.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/New-Turn-Claude-Hook)
+
+### Personalised AI Idea
+
+Thoughts and sketches on building personalised AI systems.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Personalised-AI-Idea)
 
 ### Plugin Stack
 
@@ -130,12 +174,6 @@ Helping an agentic coding session recognise it is stuck and change approach.
 ---
 
 ## Business and Economics
-
-### A Better Jobs Platform Notes
-
-An AI-driven jobs platform as a promising use case.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes)
 
 ### FeedCoin
 
@@ -187,6 +225,22 @@ Technology ideas published openly because there is no time to build them.
 
 ---
 
+## Jobs and Careers
+
+### A Better Jobs Platform Notes
+
+An AI-driven jobs platform as a promising use case.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes)
+
+### AI Resume
+
+A version of a CV written specifically for AI agents to read.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/AI-Resume)
+
+---
+
 ## Media and Video
 
 ### Video Edit Instructions
@@ -194,6 +248,42 @@ Technology ideas published openly because there is no time to build them.
 Turn a narrated screencast into editing instructions that an AI agent carries out.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Video-Edit-Instructions)
+
+---
+
+## Specs and Patterns
+
+### AI Project Spec Pattern
+
+A modular spec-definition format for AI coding agents, generated from one initial plan.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/AI-Project-Spec-Pattern)
+
+### Bounded Brainstorming Finetune
+
+Fine-tune spec: given a task, existing items and a format, generate N novel items that don't repeat the priors.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Bounded-Brainstorming-Finetune)
+
+### Claude Spec Starter
+
+AI-assisted development that starts from one long user prompt.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Spec-Starter)
+
+### CONTEXT.md
+
+Project context for agents as a single markdown file, with a loader.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/CONTEXT.md)
+
+### Prompt Categorizer Notes
+
+A small classifier that splits prompts into prompt, context and host-instruction tracks for agentic pipelines.
+
+Built since: the [Prompt-Separation](https://huggingface.co/datasets/danielrosehill/Prompt-Separation) dataset on Hugging Face and the [Prompt-Context-Separator](https://github.com/danielrosehill/Prompt-Context-Separator) system prompt.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Prompt-Categorizer-Notes)
 
 ---
 
@@ -218,7 +308,6 @@ A speech-tech product idea, specced out with Claude.
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/VoiceBox)
 
 ---
-
 ## Related Indices
 
 ### Architectural Plans Index
