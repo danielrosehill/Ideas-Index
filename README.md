@@ -1,76 +1,246 @@
-# App Ideas (Staging / Pipeline Repository)
+# Ideas Index
 
-![alt text](images/banner.png)
+[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Start-Here)
 
-This repository provides a structured system for capturing, refining, and organizing ideas for vibe-coded apps and utilities pending implementation.
+Repos where I write down an idea: a concept, proposal, spec or "what if", with little or nothing built. One repo per idea, so each can be shared, discussed or picked up on its own. Some later turned into real projects; the repo stays as the record of the original thinking.
 
-## Overview
+New idea repos carry the GitHub topic `idea-documentation` and a description starting "Idea documentation:".
 
-Vibe-coding enables rapid creation of utilities and proof-of-concepts at an unprecedented pace. Over the past year, using Claude Code and other AI assistants, I've been working through a backlog of utilities I've always wished existed—while continuously generating new ideas.
+**Last Updated:** November 2026
 
-This repository manages that ideation pipeline. Ideas captured here can marinate until the right moment for implementation arrives. 
+---
 
-## Workflow
+## Table of Contents
 
-This process approximates spec-driven development, with each idea progressing through several refinement stages:
+- [AI Agents and Claude Code](#ai-agents-and-claude-code)
+- [Business and Economics](#business-and-economics)
+- [Civic and Public Data](#civic-and-public-data)
+- [Hardware](#hardware)
+- [Idea Collections](#idea-collections)
+- [Media and Video](#media-and-video)
+- [Voice and ASR](#voice-and-asr)
+- [Related Indices](#related-indices)
 
-1. **Voice Recording**: Capture the idea as an audio note, including detailed specifications and feasibility thoughts
-2. **Transcription**: Use ASR (Whisper, etc.) to generate a raw transcript
-3. **Refinement**: Clean up the transcript using an LLM
-4. **Analysis**: Generate AI assessments (does-it-exist checks, feasibility ratings)
-5. **Specification**: Convert the refined transcript into a polished spec
-6. **Implementation**: Use the spec to direct agent-based development
+---
 
-### Repository Structure
+## AI Agents and Claude Code
 
-Each idea gets its own folder containing:
-- Audio file(s) (original voice notes)
-- `transcripts/` - Raw and refined transcripts
-- `ai-analysis/` - AI-generated assessments
-- Specification documents
+### Agent IVR
 
-Ideas live in:
-- `pending/` - Ideas awaiting implementation (organized by category)
-- `done/` - Completed/implemented ideas
-- `to-process/` - Raw ideas needing transcription and analysis
+What if a phone menu had a branch for machines: "If you are an AI agent, press 6".
 
-Categories help group related ideas together (e.g., `voice-to-text/`, `automation/`, `media-processing/`).
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Agent-IVR)
 
-## Holding Bay
+### Agent Journal
 
-The **holding bay** is a separate workflow for managing existing repositories that have moved beyond the ideation stage. These are projects that have been created and are now in various states of development, maintenance, or exploration.
+An agent-maintained logbook and wiki used to supervise agentic AI work.
 
-📋 **[View Complete Holding Bay Index](holding-bay/INDEX.md)** - Comprehensive list of all repositories organized by category
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Agent-Journal)
 
-### Holding Bay Categories
+### Agent Wiki Idea
 
-The `holding-bay/sorted/` directory organizes repository projects by their current status and development priority:
+A wiki whose primary readers are AI agents: vector-native, tool-driven, with no pages.
 
-| Category | Description | Link |
-|----------|-------------|------|
-| **Consolidation** | Related ideas and projects that could be grouped, matched, or integrated together. These repositories may share data sources, similar goals, or complementary functionality. | [View](holding-bay/sorted/consolidation.md) |
-| **Experiments in Progress** | Enduring experiments and proof-of-concepts that aren't overnight projects. Ongoing explorations to see if particular approaches work in practice. | [View](holding-bay/sorted/experiments-in-prog.md) |
-| **General Ideas** | Long-term visions for solving particular problems. Bigger-picture concepts, sometimes addressing societal challenges like job markets. | [View](holding-bay/sorted/general-ideas.md) |
-| **Needs Update** | Repositories that are behind or lagging a bit and need updating to bring them current. | [View](holding-bay/sorted/needs-update.md) |
-| **Not Started** | Projects that are parked and waiting for time to work on them. Initial scope or context has typically been defined, but implementation hasn't begun yet. | [View](holding-bay/sorted/not-started.md) |
-| **Parked** | Ideas and experiments that have been set aside or are on indefinite hiatus. | [View](holding-bay/sorted/parked.md.) |
-| **To Develop** | Cherry-picked repositories that show merit and are worth continuing to work on and focus development efforts. | [View](holding-bay/sorted/to-develop.md) |
-| **To Maintain** | Repositories that are in good order and already started. These just need periodic maintenance to keep them up to date. | [View](holding-bay/sorted/to-maintain.md) |
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Agent-Wiki-Idea)
 
-## Ideas Index
+### AI Sysadmin
 
-### Pending Ideas
+Planning notes for an AI-driven desktop maintenance utility.
 
-#### Voice-to-Text
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/AI-Sysadmin)
 
-| Idea | Audio | Transcript | Analysis | Status |
-|------|-------|------------|----------|--------|
-| [PipeWire Source Priority Organiser](pending/voice-to-text/pipewire-source-priority-organiser/) | [Audio](pending/voice-to-text/pipewire-source-priority-organiser/idea.mp3) | [Cleaned](pending/voice-to-text/pipewire-source-priority-organiser/transcripts/02-cleaned-transcript.md) | [Analysis](pending/voice-to-text/pipewire-source-priority-organiser/ai-analysis/ai-analysis.md) | Pending |
+### Claude Agent Picker Pattern
 
-### Completed Ideas
+A pattern for the "too many subagents" problem: pick from a large set without loading them all into context.
 
-*No completed ideas yet*
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Agent-Picker-Pattern)
 
-## License & Contributions
+### Claude Air Traffic Control
 
-All ideas and code in this repository are licensed under MIT. Feel free to implement any idea—pending or completed—yourself!
+Air traffic control as a workspace model: a voice-first shift manager routing one operator's attention across many concurrent Claude Code sessions.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Air-Traffic-Control)
+
+### Claude Background Hook Planner
+
+Placeholder planning repo for a Claude Code background-hook planner.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Background-Hook-Planner)
+
+### Claude Rescue
+
+A rescue utility that seeds a Claude Code install on a broken system for AI-assisted repair.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Rescue)
+
+### Claude Vault Idea
+
+A meta-plugin holding a personal vault of dormant plugins and MCP servers, activated per project.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Vault-Idea)
+
+### Client Update Pipeline Notes
+
+An agentic pipeline that drafts and sends client update emails.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Client-Update-Pipeline-Notes)
+
+### Llama OS Doctor Idea
+
+An LLM agent that diagnoses and repairs an operating system.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Llama-OS-Doctor-Idea)
+
+### Local Secrets MCP
+
+A local MCP handler that keeps secrets on the machine and pairs with a cloud API.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Local-Secrets-MCP)
+
+### Meet Me
+
+Agent-to-agent calendar booking with agent skills in a sandboxed A2A environment (part 1 of 2; see The Lobby).
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Meet-Me)
+
+### New Turn Claude Hook
+
+A hook that fires when a new turn starts in Claude Code or another agent CLI.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/New-Turn-Claude-Hook)
+
+### Plugin Stack
+
+A "plugin stack" primitive for Claude Code marketplaces: group related plugins, install all or pick members.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Plugin-Stack)
+
+### The Lobby
+
+A neutral, authenticated venue where two AI agents meet, prove identity and execute tools.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/The-Lobby)
+
+### You Are Stuck
+
+Helping an agentic coding session recognise it is stuck and change approach.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/You-Are-Stuck)
+
+---
+
+## Business and Economics
+
+### A Better Jobs Platform Notes
+
+An AI-driven jobs platform as a promising use case.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes)
+
+### FeedCoin
+
+A standard credit vendors issue to people who improve their paid products, applied against the subscription fee.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/FeedCoin)
+
+---
+
+## Civic and Public Data
+
+### Israel Home Front Ideas
+
+Open-source improvement ideas for Israel's Home Front Command (Pikud HaOref) alert system.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Israel-Home-Front-Ideas)
+
+### NoisyCity API Blueprint
+
+A public API for citizen-collected urban noise, particulate and vibration data.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/noisycity-api-blueprint)
+
+---
+
+## Hardware
+
+### Voicepad
+
+A macropad designed for speech-to-text users.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Voicepad)
+
+---
+
+## Idea Collections
+
+### MCP Server Ideas
+
+Several MCP server ideas, planned but not built.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/MCP-Server-Ideas)
+
+### Tech Ideas
+
+Technology ideas published openly because there is no time to build them.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Tech-Ideas)
+
+---
+
+## Media and Video
+
+### Video Edit Instructions
+
+Turn a narrated screencast into editing instructions that an AI agent carries out.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Video-Edit-Instructions)
+
+---
+
+## Voice and ASR
+
+### ASR Recursive Improvement Loop
+
+A playbook and Claude Code skill for improving a personal ASR model from its own corrected transcripts.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/ASR-Recursive-Improvement-Loop)
+
+### Roaming Dictation Mic Hub
+
+Use one phone as the all-day dictation mic, routed through a home server to whichever computer is in use.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Roaming-Dictation-Mic-Hub)
+
+### VoiceBox
+
+A speech-tech product idea, specced out with Claude.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/VoiceBox)
+
+---
+
+## Related Indices
+
+### Architectural Plans Index
+
+Project plans, blueprints and specifications for software and hardware projects.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Architectural-Plans-Index)
+
+### WIP Index
+
+Work-in-progress repos, from early ideas and planning notes to partially built tools.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/WIP-Index)
+
+---
+
+## History
+
+This repo was `Ideation-Pipeline` (December 2025), a voice-note → transcript → spec pipeline for app ideas. It was renamed and rebuilt as an index on 2026-11-20. The original pipeline, its commands and holding bay are kept in [`archive/ideation-pipeline/`](archive/ideation-pipeline/).
+
+---
+
+## License
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
